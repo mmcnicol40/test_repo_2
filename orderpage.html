@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="my_styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Your souvenior statium Kit</title>
+
+</head>
+
+<body>
+    <A href="index.html">  Return to our main page </A>
+<br>
+<h1>Order Your Stadium Minature Below </h1>
+<h4>Collect all Six!</h4>
+<hr>
+    <form>
+        Name: <input type="text" name="name" required> <br>
+        Special Instructions: <input type="text" name="msg" size="50"> <br>
+        Password: <input type="password" name="pwd"> <br>
+        Select a date: <input type="date" name="dob"> <br>
+        Email: <input type="email" name="email"> <br>
+        <table>
+            <tr>
+                <td valign="top">
+                    <b>Pick Miniature:</b> <br>
+                    <select name="stadium">
+                        <option value="49ers"> 49ers</option>
+                        <option value="Cowboys"> Cowboys</option>
+                        <option value="Patriots"> Pats</option>
+                        <option value="Chiefs"> Chiefs </option>
+                        <option value="Vikings"> Vikings</option>
+                        <option value="Dolphins"> Dolphins </option>   
+                        <option value="AllSix"> All Six - 20% off </option>                    </select>
+                </td>
+                <td>
+                    <b>Payment:</b> <br>
+                    <input type="radio" name="pmt" value="cash" checked>Cash<br>
+                    <input type="radio" name="pmt" value="credit">Credit <br>
+                    <input type="radio" name="pmt" value="debit">Debit
+                </td>
+                <td valign="top">
+                    <b>Extras:</b> <br>
+                    <input type="checkbox" name="Free Shipping" value="free">I will wait forever for free shipping<br>
+                    <input type="checkbox" name="bobble" value="yes">I want my free bobblehead<br>
+                </td>
+            </tr>
+        </table>
+        <input type="submit" value="Submit"> <input type="reset">
+    </form>
+    <br><br>
+    <A href="index.html">  Return to our main page </A>
+    <br><br>
+</body>
+
+</html>

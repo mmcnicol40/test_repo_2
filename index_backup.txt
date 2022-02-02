@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="my_styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M McNicol - HW2</title>
+</head>
+
+<h1>testing sytle sheet H1</h1>
+<h2>testing style sheet H2</h2>
+<h3>testing H3 - not in style sheet</h3>
+
+<hr>
+
+<body>
+    <i>Hello</i> WORLD AGAIN 2 (body)
+    <p>
+    <p style="font-family: fantasy;font-size: 16px;font-style: italic;">
+
+        <i>This is a</i> <b>paragraph</b>
+    </p>
+
+    <img src="glacierpark.jpg">
+
+    <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+
+    <ul>
+        <li>sun ands lkaj kjasf ja;dskfj alksdjf laksjdf </li>
+        <li>Moon - asdfj asjdfkl akljsdf kasjdflkajsdf;lk ajsdf</li>
+        <li>Stars - asdassaa as a sakdjfa kkskskdk </li>
+    </ul>
+
+    <table>
+        <tr>
+            <th>Company</th>
+            <th>Owner</th>
+            <th>City</th>
+            <th>Stadium </th>
+            <th>Capacity</th>
+            <th>Built</th>
+        </tr>
+        <tr>
+            <td>49ers</td>
+            <td>Jed York</td>
+            <td>San Francisco</td>
+            <td>Levis Stadium <img src="glacierpark.jpg"></td>
+            <td>60,000</td>
+            <td>2018</td>
+        </tr>
+        <tr>
+            <td>Cowboys</td>
+            <td>Jerry Jones</td>
+            <td>Dallas</td>
+            <td>'AT&T'</td>
+            <td>80,000</td>
+            <td>2015</td>
+        </tr>
+        <tr>
+            <td>Patriots</td>
+            <td>Robert Kraft</td>
+            <td>Foxboro</td>
+            <td>'Gillette'</td>
+            <td>65,000</td>
+            <td>2005</td>
+        </tr>
+        <tr>
+            <td>Vikings</td>
+            <td>Zygi Wilf</td>
+            <td>Minnepolis</td>
+            <td>'US Bank'</td>
+            <td>73,000</td>
+            <td>2016</td>
+        </tr>
+        <tr>
+            <td>Dolphins</td>
+            <td>Stephen Ross</td>
+            <td>Miami Gardens</td>
+            <td>'Hard Rock'</td>
+            <td>65,326</td>
+            <td>1987</td>
+        </tr>
+        <tr>
+            <td>Chiefs</td>
+            <td>Clark Hunt</td>
+            <td>'Kansas City'</td>
+            <td>'Arrowhead'</td>
+            <td>76,400</td>
+            <td>1972</td>
+        </tr>
+    </table>
+
+    <A href="orderpage.html">  this is a test </A>
+
+
+</body>
+
+</html>
