@@ -22,10 +22,13 @@ a:active {color:darkcyan;}
 
 /*  THE FOLLOWING IS FOR STYLING SUBMIT BUTTON */
 input {padding: 6px 12pm 6px 12px; border: 1px solid green; color:blue;}
-input [type="submit"] :hover {background-color: red;}
+input [type="button"], [type="submit"] :hover {background-color: red;}
 input [type="submit"] :active {background-color: green;}
 input [type="text"] {color: purple}
 input [type="text" ] :focus {color:orange}
+
+
+
 
 /* Unordered List Style */
 ul {
